@@ -60,6 +60,26 @@ Note that this has no effect on custom PNG crosshairs.
 **Hotkeys** can be manually edited by changing configs in the `key_bindings` section of `config.toml` using the Keycode
 values defined in [keycode.rs](src/hotkey/keycode.rs).
 
+### Default Config
+
+```
+window_dx = 0
+window_dy = 0
+window_width = 4
+window_height = 4
+color = "B2FF0000"
+
+[key_bindings]
+up = ["Up"]
+down = ["Down"]
+left = ["Left"]
+right = ["Right"]
+scale_increase = ["PageUp"]
+scale_decrease = ["PageDown"]
+toggle_hidden = ["LControl", "H"]
+toggle_adjust = ["LControl", "J"]
+```
+
 ## Installing from Source
 
 1. [Install Rust](https://www.rust-lang.org/tools/install)
