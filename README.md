@@ -27,9 +27,15 @@ A simple native crosshair overlay without unnecessary bloat. Free and open-sourc
 
 1. Download simple-crosshair-overlay.exe from the [latest release](https://github.com/zkxs/simple-crosshair-overlay/releases/latest), and save it to a location of your choice
 2. Run simple-crosshair-overlay.exe
-3. Edit `window_dy = ` in `%appdata%\simple-crosshair-overlay\config\config.toml` if you have a higher resolution than 1080p.
 
-    For 1440p use `-30` and for 2160p use `-90`.
+   
+~~3. Edit `window_dy = ` in `%appdata%\simple-crosshair-overlay\config\config.toml` if you have a higher resolution than 1080p.~~
+~~For 1440p use `-30` and for 2160p use `-90`.~~
+
+
+Fixed: https://github.com/zkxs/simple-crosshair-overlay/commit/73d9d5b6214c213eeea7a3bf8087e49e7d07c234
+
+
 4. Optionally, if you want a start menu shortcut you can make one yourself! Simply right-click simple-crosshair-overlay.exe and select "Pin to Start". This will automatically create a shortcut in `%appdata%\Microsoft\Windows\Start Menu\Programs`. 
 
 Binaries are also provided for MacOS, although they are untested. If you're interested in helping test see [issue #3](https://github.com/zkxs/simple-crosshair-overlay/issues/3).
